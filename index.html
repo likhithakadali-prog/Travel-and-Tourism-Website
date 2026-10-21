@@ -1,0 +1,173 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExploreWorld | Travel & Tourism</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+            <a href="#home" class="logo">Explore<span>World</span></a>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#packages">Packages</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#booking">Book Now</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Explore The Beauty Of The World</h1>
+            <p>Discover amazing destinations and create unforgettable memories.</p>
+            <a href="#destinations" class="btn">Explore Destinations</a>
+        </div>
+    </section>
+
+    <!-- Destinations Section -->
+    <section class="section" id="destinations">
+        <h2 class="section-title">Popular Destinations</h2>
+        <p class="section-subtitle">Discover the most beautiful places around the world.</p>
+
+        <div class="card-container">
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=800" alt="Bali">
+                <div class="card-content">
+                    <h3>Bali, Indonesia</h3>
+                    <p>Experience beautiful beaches and tropical paradise.</p>
+                    <span class="price">From ₹25,000</span>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=800" alt="Paris">
+                <div class="card-content">
+                    <h3>Paris, France</h3>
+                    <p>Explore the romantic city and its famous landmarks.</p>
+                    <span class="price">From ₹65,000</span>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1514282401047-d79a71a590e8?w=800" alt="Maldives">
+                <div class="card-content">
+                    <h3>Maldives</h3>
+                    <p>Relax on stunning beaches with crystal-clear waters.</p>
+                    <span class="price">From ₹45,000</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Tour Packages Section -->
+    <section class="section packages" id="packages">
+        <h2 class="section-title">Our Tour Packages</h2>
+        <p class="section-subtitle">Choose the perfect vacation package for you.</p>
+
+        <div class="card-container">
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=800" alt="Mountains">
+                <div class="card-content">
+                    <h3>Mountain Adventure</h3>
+                    <p>5 Days / 4 Nights</p>
+                    <p>Enjoy breathtaking mountain views and adventures.</p>
+                    <h3>₹18,999</h3>
+                    <a href="#booking" class="btn">Book Now</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800" alt="Beach">
+                <div class="card-content">
+                    <h3>Beach Holiday</h3>
+                    <p>4 Days / 3 Nights</p>
+                    <p>Relax and enjoy the beautiful tropical beaches.</p>
+                    <h3>₹24,999</h3>
+                    <a href="#booking" class="btn">Book Now</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1480796927426-f609979314bd?w=800" alt="Japan">
+                <div class="card-content">
+                    <h3>Japan Discovery</h3>
+                    <p>7 Days / 6 Nights</p>
+                    <p>Discover Japanese culture, cities, and traditions.</p>
+                    <h3>₹79,999</h3>
+                    <a href="#booking" class="btn">Book Now</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="section" id="gallery">
+        <h2 class="section-title">Travel Gallery</h2>
+        <p class="section-subtitle">Explore some unforgettable travel moments.</p>
+
+        <div class="gallery-container">
+            <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=800" alt="Nature">
+            <img src="https://images.unsplash.com/photo-1500534623283-312aade485b7?w=800" alt="Landscape">
+            <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=800" alt="Lake">
+            <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=800" alt="Mountains">
+            <img src="https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=800" alt="Waterfall">
+            <img src="https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?w=800" alt="Sunrise">
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section class="section booking-section" id="booking">
+        <h2 class="section-title">Book Your Dream Vacation</h2>
+        <p class="section-subtitle">Fill in your travel details below.</p>
+
+        <form class="booking-form" action="#" method="get">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="destination">Select Destination</label>
+            <select id="destination" name="destination" required>
+                <option value="">Choose Destination</option>
+                <option value="bali">Bali</option>
+                <option value="paris">Paris</option>
+                <option value="maldives">Maldives</option>
+                <option value="mountains">Mountain Adventure</option>
+                <option value="japan">Japan</option>
+            </select>
+
+            <label for="date">Travel Date</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="people">Number of Travelers</label>
+            <input type="number" id="people" name="people" min="1" placeholder="Number of people" required>
+
+            <button type="submit" class="btn">Submit Booking</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <h2>Explore<span>World</span></h2>
+        <p>Travel more, discover more, live more.</p>
+        <p>Email: contact@exploreworld.example</p>
+        <p>&copy; 2026 ExploreWorld. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
